@@ -1,0 +1,18 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one:
+  name: Eagle
+  family: Predator
+  continents: ["One", "Two"]
+  added: 1-6-2016
+  visible: true
+two:
+  name: Eagle1
+  family: Predator
+  continents: ["Two"]
+  added: 4-6-2016
+  visible: false
