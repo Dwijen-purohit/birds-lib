@@ -27,7 +27,7 @@ class Bird
 	# Transform Method
 	def transform
 		{
-			id: 			self.id,
+			id: 			self.id.to_s,
 			name: 			self.name,
 			family: 		self.family,
 			continents: 	self.continents,

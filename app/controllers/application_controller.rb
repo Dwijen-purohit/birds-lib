@@ -66,6 +66,14 @@ class ApplicationController < ActionController::Base
   	}
   end
 
+  def is_alpha_numeric param
+    is_valid = (param.match(/^[0-9a-zA-Z]+$/) != nil)
+    {
+      is_valid: is_valid,
+      message: is_valid || " is not a valid number"
+    }
+  end
+
   def is_array_type param
   	is_valid = param.is_a? Array
   	{
