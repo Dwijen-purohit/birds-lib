@@ -1,28 +1,13 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+After cloning the Repository please setup your MongoDB on default port `27017`.
 
-Things you may want to cover:
+Run the Test's with these commands - 
+Model Tests - `rake test test/models/bird_test.rb`
+Integration Tests / API Tests - `rake test test/integration/bird_apis_test.rb`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+API end points are as follows - 
+1. Get all Birds - `/api/birds` - GET
+2. Create New Bird - `/api/birds` - POST
+3. Get Bird with ID - `/api/birds/{id}` - GET
+4. Delete Bird with ID - `/api/birds/{id}` - DELETE
