@@ -1,4 +1,4 @@
-== README
+# README
 
 After cloning the Repository please setup your MongoDB on default port `27017`.
 
